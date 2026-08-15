@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: white;
+    margin: 0;
+}
+
+#logotipo {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #202020;
+    color: #f4f4f4;
+    padding: 20px;
+
+    text-align: center;
+}
+
+header h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+ 
+}
+
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+nav {
+    background-color: #202020;
+    padding:  10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    border-bottom: 4px solid #a22;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+
+}
+
+nav a:hover{
+    background-color: black;
+    color:white;
+}
+
+main{
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* Cole o link da sua imagem dentro das aspas simples */
+    background-image: url('https://img2.storyblok.com/fit-in/1536x0/filters:format(png)/f/127947/1920x1080/ebc8a78ad0/hero-image.png');
+    
+    /* Faz a imagem cobrir toda a tela, sem distorcer */
+    background-size: cover;
+    
+    /* Centraliza a imagem na tela */
+    background-position: center;
+    
+    /* Impede que a imagem fique se repetindo em mosaico */
+    background-repeat: no-repeat;
+    
+    /* Mantém a imagem fixa no fundo enquanto você rola a página (opcional) */
+    background-attachment: fixed;
+}
